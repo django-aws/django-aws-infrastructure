@@ -36,3 +36,6 @@ terraform.rc
 .idea/
 .DS_Store
 .env
+
+.gitignore
+.terraform.lock.hcl
