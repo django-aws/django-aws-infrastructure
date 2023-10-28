@@ -9,16 +9,15 @@ This is a project to run a django app container on aws with RDS DataBase
    ![image](https://github.com/django-aws/django-aws-infrastructure/assets/147988907/4e79a575-e2a4-41e9-ac52-841694f02a80)
    ![image](https://github.com/django-aws/django-aws-infrastructure/assets/147988907/8a0d5025-4d73-4d0c-8682-e69b7655c897)
 
-2. Then create Network resources( vpc , subnets ,routing tables , Gateway , Nat Gateway "eip") and output Load Palancer domain name :
+2. Then create Network resources( vpc , subnets ,routing tables , Gateway , Nat Gateway "eip") :
    ![image](https://github.com/django-aws/django-aws-infrastructure/assets/147988907/b2e664ec-127b-4f25-b60d-dbb0e9ec7495)
    ![image](https://github.com/django-aws/django-aws-infrastructure/assets/147988907/1542666d-a035-49ff-97b1-6b8c7f264633)
+
+4. Create Load Palancer for our App and output Load Palancer domain name:
+   ![image](https://github.com/django-aws/django-aws-infrastructure/assets/147988907/78a4525b-a0ef-43ee-8dc6-6b0494910f52)
    ![image](https://github.com/django-aws/django-aws-infrastructure/assets/147988907/53a3ea36-1071-4d8f-94b9-3e6c752170af)
 
-
-4. Create Load Palancer for our App:
-   ![image](https://github.com/django-aws/django-aws-infrastructure/assets/147988907/78a4525b-a0ef-43ee-8dc6-6b0494910f52)
-
-5. Create ECS Cluster and service:
+6. Create ECS Cluster and service:
    ![image](https://github.com/django-aws/django-aws-infrastructure/assets/147988907/81d1c9fa-080c-42aa-8992-894b4254c6e7)
    ![image](https://github.com/django-aws/django-aws-infrastructure/assets/147988907/67aed9cc-d1e4-4794-94b9-f4b63da24ceb)
 
